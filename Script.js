@@ -1,11 +1,11 @@
 function randomImage(){
     const img={
-        1: "../images/dice1.png",
-        2: "../images/dice2.png",
-        3: "../images/dice3.png",
-        4: "../images/dice4.png",
-        5: "../images/dice5.png",
-        6: "../images/dice6.png"
+        1: "dice1.png",
+        2: "dice2.png",
+        3: "dice3.png",
+        4: "dice4.png",
+        5: "dice5.png",
+        6: "dice6.png"
     };
     const randomimage1=Math.floor(Math.random()*6)+1;
     const randomimage2=Math.floor(Math.random()*6)+1;
